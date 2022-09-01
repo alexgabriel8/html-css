@@ -1,0 +1,137 @@
+/*O verde que eu usei como o mais escuro do gradiente e dos headers é um pouco mais escuro que o que estava na paleta do Guanabara*/
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url('../fontes/bebasneue-regular.otf') format('opentype');
+    src: url('../fontes/bebasneue-regular.ttf') format ('truetype');
+}
+
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E1AD;
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #095329);
+    color: white;
+}
+
+header > h1 {
+    font-family: "Bebas Neue", cursive;
+    margin: 0%;
+    padding-top: 20px;
+    font-size: 3em;
+    text-shadow: 1px 1px 3px #063D1E;
+}
+
+nav {
+    text-align: left;
+    justify-content: left;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+
+article > p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.226);
+}
+p > a {
+    text-decoration: none;
+    color: #2FA866;
+}
+
+article > strong {
+    color:#063D1E;
+}
+
+a > img {
+    padding-left: 5px;
+    height: 15px;
+}
+
+strong {
+    color:#2FA866 ;
+}
+
+article > h1 {
+    font-family: 'idroid';
+    color: #095329;
+    font-size: 1.8em;
+}
+article > h2 {
+    font-family: 'idroid';
+    color: #095329;
+    background-image: linear-gradient(to right, #C5EBD6, white);
+}
+article > img, iframe {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    background-color:#83E1AD;
+    border-radius: 10px;
+    padding: 0px 10px 5px 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.226);
+}
+aside > p {
+    margin-top: 10px;
+    text-indent: 20px;
+}
+aside > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#2FA866;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+#div-video {
+    background-color: #063D1E;
+    padding: 10px;
+}
+
+aside > div {
+    display: inline-block;
+}
+#d1 {
+    margin-right: 250px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #063D1E;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 20px;
+}
+footer > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
